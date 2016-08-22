@@ -1,0 +1,6 @@
+- name: favicon.icoを変更
+  sudo: yes
+  copy:
+    src=piyo_fv_451.ico
+    dest={{ redmine_dir }}/public/favicon.ico
+    force=yes

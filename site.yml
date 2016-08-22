@@ -5,6 +5,7 @@
     - pg
     - ruby
     - redmine
+    - redmine_add
     - apache
 
   post_tasks:
